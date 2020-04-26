@@ -4,7 +4,10 @@ const app = express();
 var mongoose = require('mongoose');
 let port = process.env.PORT || 80;
 
-mongoose.connect('mongodb://localhost/contactDance', { useNewUrlParser: true });
+mongoose.connect(
+   'mongodb+srv://savanvekariya:savan8264985649@cluster0-lnpjx.mongodb.net/test?retryWrites=true&w=majority',
+   { useNewUrlParser: true }
+);
 
 var contactSchema = new mongoose.Schema({
    name: String,

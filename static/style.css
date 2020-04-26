@@ -113,6 +113,12 @@ body {
    padding: 0px 0px;
    border-radius: 16px;
    text-align: center;
+   outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
 }
 
 .container button {

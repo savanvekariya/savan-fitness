@@ -1,0 +1,123 @@
+body {
+   margin: 0px;
+   padding: 0px;
+   background-image: url(/static/image/lady.jpg);
+   color: white;
+   font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.left {
+   /* border: 2px solid red; */
+   position: absolute;
+   display: inline-block;
+   left: 70px;
+   top: 20px;
+}
+
+.mid {
+   /* border: 2px solid green; */
+   display: block;
+   width: 40%;
+   margin: 20px auto;
+}
+
+.left img {
+   width: 160px;
+   filter: invert(100%);
+   display: block;
+   margin: auto;
+}
+
+.left #logo-name {
+   line-height: 40px;
+   text-align: center;
+   font-size: 25px;
+}
+
+.right {
+   /* border: 2px solid yellow; */
+   position: absolute;
+   display: inline-block;
+   right: 34px;
+   top: 20px;
+}
+
+.btn {
+   font-family: 'Baloo Bhaina 2', cursive;
+   font-size: 20px;
+   margin: 4px 15px;
+   padding: 2px 23px;
+   background-color: black;
+   color: white;
+   border: 3px solid white;
+   border-radius: 10px;
+}
+
+.btn:hover {
+   background-color: gray;
+   cursor: pointer;
+}
+
+.navbar {
+   display: inline-block;
+}
+
+.navbar li {
+   display: inline-block;
+   font-size: 25px;
+}
+
+.navbar li a {
+   text-decoration: none;
+   color: honeydew;
+   padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+   color: gray;
+}
+
+.container {
+   border: 4px solid white;
+   margin: 90px 200px;
+   padding: 15px 20px;
+   display: block;
+   width: 33%;
+   border-radius: 40px;
+}
+
+.container h1 {
+   text-align: center;
+   font-size: 40px;
+   margin-bottom: 0px;
+}
+
+/* .alert {
+   border: 2px solid white;
+} */
+
+.alert p {
+   color: rgb(154, 255, 154);
+   text-align: center;
+   margin: 0;
+   font-size: 26px;
+}
+
+.form-group input {
+   font-family: 'Baloo Bhaina 2', cursive;
+   font-size: 25px;
+   display: block;
+   width: 80%;
+   margin: 15px auto;
+   padding: 0px 0px;
+   border-radius: 16px;
+   text-align: center;
+}
+
+.container button {
+   display: block;
+   width: 30%;
+   margin: 40px auto;
+   margin-bottom: 15px;
+}

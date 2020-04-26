@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>#{title}</title>
+      <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&display=swap" rel="stylesheet"/>
+      //- 
+      style
+         include ../static/style.css
+
+      //- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      //- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      //- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   </head>
+
+   <body>
+      <header class="header">
+         <div class="left">
+            <div id="logo"></div>
+            <div id="logo-name">Savan Fitness</div>
+         </div>
+         <div class="mid">
+            <ul class="navbar">
+               <li><a href="/" class="active">Home</a></li>
+               <li><a href="#">About us</a></li>
+               <li><a href="#">Fitness calculator</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+         </div>
+         <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+         </div>
+      </header>
+
+      
+
+      <div class="container">
+         <h1>Join the best gym of Surat now</h1>
+         <div class="alert">
+            <p style="color:#{color}">#{message}</p>
+         </div>
+         <form action="/" method="POST">
+            <div class="form-group">
+               <input type="text" name="name" placeholder="Enter your Gender" />
+            </div>
+            <div class="form-group">
+               <input type="number" name="age" placeholder="Enter your Age" />
+            </div>
+            <div class="form-group">
+               <input type="text" name="gender" placeholder="Enter your Gender" />
+            </div>
+            <div class="form-group">
+               <input type="text" name="address" placeholder="Enter your Address" />
+            </div>
+            <div class="form-group">
+               <input type="email" name="email" placeholder="Enter your Email" />
+            </div>
+            <div class="form-group">
+               <input type="number" name="phone" placeholder="Enter your Phone number" />
+            </div>
+            <button class="btn">Submit</button>
+         </form>
+      </div>
+   </body>
+</html>

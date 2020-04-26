@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 let port = process.env.PORT || 80;
 
 mongoose.connect(
-   'mongodb+srv://savanvekariya:savan8264985649@cluster0-lnpjx.mongodb.net/test?retryWrites=true&w=majority',
+   'mongodb+srv://savanvekariya:<password>@cluster0-lnpjx.mongodb.net/test?retryWrites=true&w=majority',
    { useNewUrlParser: true }
 );
 
